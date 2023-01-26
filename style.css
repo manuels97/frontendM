@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+*{
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: hsl(211, 68%, 94%);
+}
+#todo{
+    background-color:hsl(210, 60%, 98%) ;
+    }
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 30px;
+}
+span{
+    font-weight: bold;
+}
+
+.punto{
+    color: red;
+}
+
+.numero{
+    padding: 5px;
+    background-color: hsl(219, 85%, 26%); 
+    color: white;
+}
+
+p{
+    font-size: 15px;
+    
+    
+
+}
+
+img{
+    width: 35px;
+    display: inline;
+}
+
+.nombres{
+    pointer-events: visible;
+}
+
+#allread{
+    text-decoration: none;
+    color:hsl(219, 85%, 26%) ;
+}
+
+.nombres{
+    text-decoration: none;
+    color:hsl(219, 85%, 26%) ;
+    font-weight: bold;
+}
+
+.read{
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+#msj{
+    font-size: 10px;
+    display: block;
+    border: solid 1px grey;
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 575px) {
+
+    body{
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
